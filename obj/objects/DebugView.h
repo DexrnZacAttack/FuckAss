@@ -11,7 +11,7 @@ class FuckAss;
 
 class DebugView final : public Object {
 public:
-    explicit DebugView(BouncyText &txt) : mText(txt) {};
+    explicit DebugView(BouncyText &txt) : mrText(txt) {};
 
     void tick() override;
 
@@ -19,7 +19,7 @@ public:
     int y = 0;
 private:
     // saves large stl call per frame
-    BouncyText &mText;
+    BouncyText &mrText;
 };
 
 #endif //FUCKASS_DEBUGVIEW_H
