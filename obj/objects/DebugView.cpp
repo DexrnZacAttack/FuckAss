@@ -12,6 +12,6 @@ void DebugView::tick() {
     this->y = FuckAss::sInstance.h - 16;
 
     // left out for now uncomment if you want it back in
-    // DrawText(("Text coords: [" + std::to_string(text->x) + ", " + std::to_string(text->y) + "]").c_str(), this->x, this->y - 20, 16, Color(0xFF, 0xFF, 0xFF, 0xFF));
+    // DrawText(("Text coords: [" + std::to_string(mrText.x) + ", " + std::to_string(mrText.y) + "]").c_str(), this->x, this->y - 20, 16, Color(0xFF, 0xFF, 0xFF, 0xFF));
     DrawText(("FPS: " + std::to_string(GetFPS())).c_str(), this->x, this->y, 16, FuckAss::FUCKASS_WHITE);
 }
